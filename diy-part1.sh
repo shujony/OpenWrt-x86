@@ -33,5 +33,6 @@
 
 # Add a feed source
 #sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-sed -i '$a src-git mosdns https://github.com/IrineSistiana/mosdns' feeds.conf.default
+# sed -i '$a src-git mosdns https://github.com/IrineSistiana/mosdns' feeds.conf.default
 sed -i '$a src-git clash https://github.com/vernesong/OpenClash' feeds.conf.default
+sed -i '$a src-git luci-mosdns https://github.com/QiuSimons/openwrt-mos' feeds.conf.default
